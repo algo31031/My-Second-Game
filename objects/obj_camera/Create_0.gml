@@ -1,0 +1,9 @@
+target = noone;
+global.cam_x = 0;
+global.cam_y = 0;
+global.cam_width = 256;
+global.cam_height = 144;
+global.display_scale = 4;
+global.display_width = global.cam_width*global.display_scale;
+global.display_height = global.cam_height*global.display_scale;
+global.cam_shake = 0;
