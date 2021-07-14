@@ -41,7 +41,7 @@
     "spriteId": {"name":"cat_run_strip4","path":"sprites/cat_run_strip4/cat_run_strip4.yy",},
     "timeUnits": 1,
     "playback": 1,
-    "playbackSpeed": 3.0,
+    "playbackSpeed": 15.0,
     "playbackSpeedType": 0,
     "autoRecord": true,
     "volume": 1.0,
@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cat",
-    "path": "folders/Sprites/player/cat.yy",
+    "path": "folders/Sprites/player/pets/cat.yy",
   },
   "resourceVersion": "1.0",
   "name": "cat_run_strip4",

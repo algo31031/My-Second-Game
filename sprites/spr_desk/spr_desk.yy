@@ -69,8 +69,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "objects",
-    "path": "folders/Sprites/objects.yy",
+    "name": "furnitures",
+    "path": "folders/Sprites/furnitures.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_desk",

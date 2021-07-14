@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "dog",
-    "path": "folders/Sprites/player/dog.yy",
+    "path": "folders/Sprites/player/pets/dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "dog_jump_strip8",

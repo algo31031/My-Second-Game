@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "bwcat",
-    "path": "folders/Sprites/player/bwcat.yy",
+    "path": "folders/Sprites/player/pets/bwcat.yy",
   },
   "resourceVersion": "1.0",
   "name": "bwcat_hurt_strip4",

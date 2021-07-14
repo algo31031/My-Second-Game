@@ -74,7 +74,7 @@
   "nineSlice": null,
   "parent": {
     "name": "bwcat",
-    "path": "folders/Sprites/player/bwcat.yy",
+    "path": "folders/Sprites/player/pets/bwcat.yy",
   },
   "resourceVersion": "1.0",
   "name": "bwcat_land_strip2",
