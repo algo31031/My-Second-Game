@@ -17,7 +17,7 @@ if(hspd != 0 or vspd != 0){
 	if(hspd > 0){ 
 		dir = 0;
 		sprite_index = sprites.run;
-	} else if(hspd <= 0){
+	} else if(hspd < 0){
 		dir = 1;
 		sprite_index = sprites.run;
 	}

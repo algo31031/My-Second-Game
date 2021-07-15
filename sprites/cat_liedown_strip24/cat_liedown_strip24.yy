@@ -162,7 +162,7 @@
   "nineSlice": null,
   "parent": {
     "name": "cat",
-    "path": "folders/Sprites/player/pets/cat.yy",
+    "path": "folders/Sprites/chars/pets/cat.yy",
   },
   "resourceVersion": "1.0",
   "name": "cat_liedown_strip24",

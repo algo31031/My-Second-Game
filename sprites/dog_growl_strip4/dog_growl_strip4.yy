@@ -82,7 +82,7 @@
   "nineSlice": null,
   "parent": {
     "name": "dog",
-    "path": "folders/Sprites/player/pets/dog.yy",
+    "path": "folders/Sprites/chars/pets/dog.yy",
   },
   "resourceVersion": "1.0",
   "name": "dog_growl_strip4",

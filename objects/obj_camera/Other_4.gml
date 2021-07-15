@@ -1,4 +1,5 @@
-target = obj_player;
+if(instance_exists(obj_player)) target = obj_player;
+else target = noone;
 
 view_enabled[0] = true;
 view_visible[0] = true;

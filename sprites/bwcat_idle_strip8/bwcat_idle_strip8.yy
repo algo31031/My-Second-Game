@@ -98,7 +98,7 @@
   "nineSlice": null,
   "parent": {
     "name": "bwcat",
-    "path": "folders/Sprites/player/pets/bwcat.yy",
+    "path": "folders/Sprites/chars/pets/bwcat.yy",
   },
   "resourceVersion": "1.0",
   "name": "bwcat_idle_strip8",

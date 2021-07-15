@@ -78,7 +78,7 @@
   "nineSlice": null,
   "parent": {
     "name": "npcs",
-    "path": "folders/Sprites/player/npcs.yy",
+    "path": "folders/Sprites/chars/npcs.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_cat_left",
