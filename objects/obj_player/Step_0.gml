@@ -1,3 +1,4 @@
+// movement
 var _lkey = keyboard_check(vk_left) or keyboard_check(ord("A"));
 var _rkey = keyboard_check(vk_right) or keyboard_check(ord("D"));
 var _ukey = keyboard_check(vk_up) or keyboard_check(ord("W"));
@@ -13,6 +14,9 @@ if(_walk){
 }
 
 if(hspd != 0 or vspd != 0){
+	if(!audio_is_playing(snd_footstep05)) audio_play_sound(snd_footstep05,1,0);
+	else if(!audio_is_playing(snd_footstep06)) audio_play_sound(snd_footstep06,1,0);
+	
 	if(hspd > 0) dir = dirs.right;
 	else if(hspd < 0) dir = dirs.left;
 	else if (vspd > 0) dir = dirs.down;
@@ -47,8 +51,28 @@ switch (dir){
 	case dirs.down: sprite_index = asset_get_index("spr_" + sprite_name + "_down"); break;
 }
 
+// z-index
 depth = -y;
 
+// haunting objects
+if(global.haunting){
+	var _list = ds_list_create();
+	var _num = collision_rectangle_list(x-32, y-24, x+32, y+24, obj_haunting, 0, 1, _list, 0);
+	if(_num > 0){
+	    for (var i = 0; i < _num; ++i;){
+	        with(_list[| i]){
+				if(is_haunting or no_haunting) continue;
+				
+				is_haunting = true;
+				event_user(0);
+			}
+	    }
+	}
+	
+	ds_list_destroy(_list);
+}
+
+// debug
 if(keyboard_check(vk_f1)){
 	show_message(room_get_name(room))
 	show_message(x)

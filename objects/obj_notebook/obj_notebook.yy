@@ -8,8 +8,8 @@
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": {
-    "name": "obj_item",
-    "path": "objects/obj_item/obj_item.yy",
+    "name": "obj_haunting",
+    "path": "objects/obj_haunting/obj_haunting.yy",
   },
   "physicsObject": false,
   "physicsSensor": false,
@@ -23,12 +23,14 @@
   "physicsStartAwake": true,
   "physicsKinematic": false,
   "physicsShapePoints": [],
-  "eventList": [],
+  "eventList": [
+    {"isDnD":false,"eventNum":10,"eventType":7,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+  ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "items",
-    "path": "folders/Objects/envirment/items.yy",
+    "name": "hauntings",
+    "path": "folders/Objects/envirment/hauntings.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_notebook",
