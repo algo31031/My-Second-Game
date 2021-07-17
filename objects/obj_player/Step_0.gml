@@ -35,8 +35,8 @@ if(hspd != 0 or vspd != 0){
 		}
 	}
 
-	if(!collision_point(x+hspd,y,obj_envirment,false,true)) x += hspd;
-	if(!collision_point(x,y+vspd,obj_envirment,false,true)) y += vspd;
+	if(!collision_point(x+hspd,y,obj_envirment,false,true) and !collision_point(x+hspd,y,obj_npc,false,true)) x += hspd;
+	if(!collision_point(x,y+vspd,obj_envirment,false,true) and !collision_point(x,y+vspd,obj_npc,false,true)) y += vspd;
 		
 	image_speed = 1;
 } else {
@@ -81,3 +81,5 @@ if(keyboard_check(vk_f1)){
 	show_message(room_get_name(dest_x))
 	show_message(room_get_name(dest_y))
 }
+
+move_wrap(1,1,16);

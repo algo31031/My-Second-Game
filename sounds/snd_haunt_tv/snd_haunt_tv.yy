@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_haunt_tv.ogg",
-  "duration": 0.532585,
+  "soundFile": "snd_haunt_tv.wav",
+  "duration": 1.5,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

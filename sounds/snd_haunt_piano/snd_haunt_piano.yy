@@ -10,8 +10,8 @@
     "name": "audiogroup_default",
     "path": "audiogroups/audiogroup_default",
   },
-  "soundFile": "snd_haunt_piano.ogg",
-  "duration": 0.474104,
+  "soundFile": "snd_haunt_piano.mp3",
+  "duration": 4.224,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

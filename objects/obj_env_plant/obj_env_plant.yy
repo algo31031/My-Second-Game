@@ -27,8 +27,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "envirment",
-    "path": "folders/Objects/envirment.yy",
+    "name": "indoors",
+    "path": "folders/Objects/envirment/indoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "obj_env_plant",

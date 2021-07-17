@@ -101,8 +101,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "furnitures",
-    "path": "folders/Sprites/furnitures.yy",
+    "name": "indoors",
+    "path": "folders/Sprites/indoors.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_plant",

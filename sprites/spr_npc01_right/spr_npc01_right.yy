@@ -1,5 +1,5 @@
 {
-  "bboxMode": 0,
+  "bboxMode": 2,
   "collisionKind": 1,
   "type": 0,
   "origin": 9,
@@ -9,7 +9,7 @@
   "swfPrecision": 2.525,
   "bbox_left": 2,
   "bbox_right": 13,
-  "bbox_top": 11,
+  "bbox_top": 21,
   "bbox_bottom": 30,
   "HTile": false,
   "VTile": false,
@@ -77,8 +77,8 @@
   ],
   "nineSlice": null,
   "parent": {
-    "name": "tiles",
-    "path": "folders/Sprites/tiles.yy",
+    "name": "npcs",
+    "path": "folders/Sprites/chars/npcs.yy",
   },
   "resourceVersion": "1.0",
   "name": "spr_npc01_right",
