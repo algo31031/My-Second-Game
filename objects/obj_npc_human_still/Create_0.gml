@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-sprite_name = "boy";
+sprite_name = "boy01";
 is_wandering = false;
 image_index = 1;
 alarm[0] = -1;

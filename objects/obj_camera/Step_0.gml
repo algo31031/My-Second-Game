@@ -1,4 +1,4 @@
-if(target){
+if(instance_exists(target)){
 	global.cam_x = target.x - global.cam_width/2;
 	global.cam_y = target.y - global.cam_height/2;
 }

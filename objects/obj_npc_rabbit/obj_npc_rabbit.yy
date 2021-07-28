@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_cat_down",
-    "path": "sprites/spr_cat_down/spr_cat_down.yy",
+    "name": "spr_rabbit_down",
+    "path": "sprites/spr_rabbit_down/spr_rabbit_down.yy",
   },
   "solid": false,
   "visible": true,

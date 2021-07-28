@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "spr_girl_down",
-    "path": "sprites/spr_girl_down/spr_girl_down.yy",
+    "name": "spr_girl02_down",
+    "path": "sprites/spr_girl02_down/spr_girl02_down.yy",
   },
   "solid": false,
   "visible": true,

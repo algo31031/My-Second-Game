@@ -7,7 +7,7 @@
   "edgeFiltering": false,
   "collisionTolerance": 0,
   "swfPrecision": 2.525,
-  "bbox_left": 1,
+  "bbox_left": 0,
   "bbox_right": 255,
   "bbox_top": 0,
   "bbox_bottom": 239,
@@ -21,8 +21,8 @@
     "path": "texturegroups/Default",
   },
   "swatchColours": null,
-  "gridX": 0,
-  "gridY": 0,
+  "gridX": 8,
+  "gridY": 8,
   "frames": [
     {"compositeImage":{"FrameId":{"name":"6219425f-96bb-4081-9ca2-1f9c277ab284","path":"sprites/spr_tile_walls/spr_tile_walls.yy",},"LayerId":null,"resourceVersion":"1.0","name":"imported","tags":[],"resourceType":"GMSpriteBitmap",},"images":[
         {"FrameId":{"name":"6219425f-96bb-4081-9ca2-1f9c277ab284","path":"sprites/spr_tile_walls/spr_tile_walls.yy",},"LayerId":{"name":"8029fa05-e7ad-419f-97e3-8dad4ed32b3f","path":"sprites/spr_tile_walls/spr_tile_walls.yy",},"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMSpriteBitmap",},

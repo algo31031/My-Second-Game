@@ -1,4 +1,4 @@
-var _c = obj_room_control;
+var _c = obj_room_controller;
 
 if(room == _c.dest_room){
 	x = _c.dest_x;

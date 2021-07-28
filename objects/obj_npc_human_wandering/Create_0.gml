@@ -1,4 +1,4 @@
 // Inherit the parent event
 event_inherited();
 
-sprite_name = "boy";
+sprite_name = "boy00";
