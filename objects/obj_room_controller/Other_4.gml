@@ -6,7 +6,7 @@ switch(room){
 	case rm_home_2f:
 	case rm_street:
 		instance_activate_object(obj_player);
-		if(!audio_is_playing(bgm_Swinging_Pants)) audio_play_sound(bgm_Swinging_Pants,1,1);
+		//if(!audio_is_playing(bgm_Swinging_Pants)) audio_play_sound(bgm_Swinging_Pants,1,1);
 		break;
 	case rm_matching:
 		instance_deactivate_object(obj_player);
